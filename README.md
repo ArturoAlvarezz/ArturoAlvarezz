@@ -22,7 +22,7 @@ whoami:
 <img src="assets/label-work.svg" width="100%" alt="02 Selected work" />
 
 <p align="center">
-  <a href="https://github.com/ArturoAlvarezz/ryu-k3s"><img src="assets/project-sdn-ami.svg" width="49%" alt="01 SDN / AMI — Arquitectura SDN resiliente para redes eléctricas" /></a>
+  <a href="https://github.com/ArturoAlvarezz/ryu-k8s"><img src="assets/project-sdn-ami.svg" width="49%" alt="01 SDN / AMI — Arquitectura SDN resiliente para redes eléctricas" /></a>
   <a href="https://arturoalvarez.dev/projects/arm64-home-infrastructure"><img src="assets/project-arm64-infra.svg" width="49%" alt="02 ARM64 Infra — Plataforma personal Cloud &amp; DevOps" /></a>
   <a href="https://fuegodance.cl/"><img src="assets/project-fuego-dance.svg" width="49%" alt="03 Fuego Dance — Plataforma web y gestión de contenido" /></a>
   <a href="https://sherlock.arturoalvarez.dev/"><img src="assets/project-sherlock-osint.svg" width="49%" alt="04 Sherlock OSINT — Dashboard de identidades digitales" /></a>
