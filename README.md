@@ -19,7 +19,11 @@ whoami:
   status:   available_for_opportunities
 ```
 
-<img src="assets/label-work.svg" width="100%" alt="02 Selected work" />
+<img src="assets/label-activity.svg" width="100%" alt="02 Activity" />
+
+<img src="assets/contributions.svg" width="100%" alt="Mapa de contribuciones del último año" />
+
+<img src="assets/label-work.svg" width="100%" alt="03 Selected work" />
 
 <p align="center">
   <a href="https://github.com/ArturoAlvarezz/ryu-k8s"><img src="assets/project-sdn-ami.svg" width="49%" alt="01 SDN / AMI — Arquitectura SDN resiliente para redes eléctricas" /></a>
@@ -28,11 +32,11 @@ whoami:
   <a href="https://sherlock.arturoalvarez.dev/"><img src="assets/project-sherlock-osint.svg" width="49%" alt="04 Sherlock OSINT — Dashboard de identidades digitales" /></a>
 </p>
 
-<img src="assets/label-stack.svg" width="100%" alt="03 Stack" />
+<img src="assets/label-stack.svg" width="100%" alt="04 Stack" />
 
 <img src="assets/stack.svg" width="100%" alt="Stack: AWS, GCP, Linux, Docker, Kubernetes/k3s, Calico, SDN/OpenFlow, OSPF/BGP, Prometheus/Grafana, GitHub Actions, Python, JavaScript/TypeScript. AWS Certified AI Practitioner." />
 
-<img src="assets/label-contact.svg" width="100%" alt="04 Contact" />
+<img src="assets/label-contact.svg" width="100%" alt="05 Contact" />
 
 <a href="https://arturoalvarez.dev">
   <img src="assets/footer.svg" width="100%" alt="Construyamos algo resiliente — arturoalvarez.dev" />
@@ -45,4 +49,4 @@ whoami:
   <a href="https://www.credly.com/badges/fd7c4f63-5704-4c47-939a-1ad699cf7ddb/public_url"><b>AWS CERT</b></a>
 </p>
 
-<!-- Los SVG se generan con scripts/build.py (texto convertido a trazos con fontTools). -->
+<!-- SVG: scripts/build.py (texto a trazos con fontTools). Mapa de actividad: scripts/contrib.py, regenerado a diario por .github/workflows/activity.yml -->

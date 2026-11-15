@@ -80,3 +80,18 @@ def wrap(t, font, size, max_w, spacing=0.0):
     if cur:
         lines.append(cur)
     return lines
+
+
+def build_atlas(fonts, chars):
+    """Glifos en unidades de fuente para renderizar sin fuentes instaladas (usado por la Action)."""
+    atlas = {}
+    for font in fonts:
+        entry = {}
+        for ch in chars:
+            g, upm = _glyph(ch, font)
+            pen = SVGPathPen(g.glyphSet, ntos=_num)
+            if ch != " ":
+                g.draw(pen)
+            entry[ch] = [round(g.width / upm, 4), pen.getCommands(), upm]
+        atlas[font] = entry
+    return atlas

@@ -383,9 +383,10 @@ def main():
     OUT.mkdir(exist_ok=True)
     files = {"hero.svg": hero(), "stack.svg": stack(), "footer.svg": footer()}
     files["label-profile.svg"] = label("01", "PROFILE", "WHOAMI")
-    files["label-work.svg"] = label("02", "SELECTED WORK", "4 SYSTEMS / PRODUCTION + LAB")
-    files["label-stack.svg"] = label("03", "STACK", "TOOLING / DOMAINS")
-    files["label-contact.svg"] = label("04", "CONTACT", "OPEN CHANNEL")
+    files["label-activity.svg"] = label("02", "ACTIVITY", "SYNCED DAILY / GITHUB ACTIONS")
+    files["label-work.svg"] = label("03", "SELECTED WORK", "4 SYSTEMS / PRODUCTION + LAB")
+    files["label-stack.svg"] = label("04", "STACK", "TOOLING / DOMAINS")
+    files["label-contact.svg"] = label("05", "CONTACT", "OPEN CHANNEL")
     for p in PROJECTS:
         files[f"project-{p['slug']}.svg"] = card(p)
     for name, content in files.items():
